@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Teko:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Monoton&display=swap'); 
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	
+}
+#navbar{
+	position: sticky;
+	top: 0;
+	left: 0;
+    z-index: 100;
+/*    padding: 5rem 5rem;*/
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    background-color: black;
+}
+.navbar-brand{
+	font-size: 25px;
+	font-weight: 600px;
+}
+navbar-brand{
+	font-family: 'Monoton', cursive;
+	color: 	#ff0000;
+}
+
+/*#navbarSupportedContent a{
+	color: #fff;
+	border-bottom: 2px solid transparent;
+
+}*/
+
+section{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#home{
+	background: url(img/imgban.jpg);
+	background-size: cover;
+	background-position: center;
+	flex-direction: column;
+
+}
+#home h1{
+	font-family: 'Monoton', cursive;
+/*	font-family: 'Dancing Script', cursive;*/
+	font-weight: 100px;
+	font-size: 80px;
+    color: 				#ff0000;
+    letter-spacing: 3px;
+    text-shadow: 5px 1px 8px	#ffb6c1,0
+    0px 2px 0px	#ffb6c1,
+    0px 3px 0px	#ffb6c1,
+    0px 4px 0px	#ffb6c1,
+    0px 5px 0px	#ffb6c1,
+    0px 6px 0px	#ffb6c1,
+    0px 7px 0px	#ffb6c1
+
+
+}
+#home p{
+	font-size: 18px;
+	color: 	#7cfc00	;
+
+}
+
+/*about*/
+#about{
+	min-height: 60vh;
+	background-color: #696969;
+}
+#about h1{
+	font-weight: 800;
+	font-size: 50px;
+	
+}
+#about img{
+	width: 400px;
+}
+
+
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: 	 	#ff0000;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: 	#ff0000;
+    transition: 0.5s;
+
+}
+.pp{
+	font-family: 'Michroma', sans-serif;
+
+}
+
